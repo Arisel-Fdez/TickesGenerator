@@ -28,7 +28,7 @@ for x in range(number_of_strings):
     code = (''.join(random.SystemRandom().choice(string.ascii_letters + string.digits)for _ in range(length_of_string)))
     doc = ("add server=hotspot1 name="+code+" limit-uptime="+time_ticke+" profile="+profile_ticke+" comment="+coment_ticke)
     a = ("---------------------------------FdezNet-Fichas---------------------------------""\n")
-    ficha = ("PIN: " +code+" | Tiempo: "+coment_ticke+" | Precio: $"+price_ticke+ " | FdezNet Residencial: 9921115811"+"\n")
+    ficha = ("PIN: " +code+" | Tiempo: "+coment_ticke+" | Precio: $"+price_ticke+ " | FdezNet Residencial: XXXXXXXXXXX"+"\n")
     b = ("--------------------------------Internet-ilimitado------------------------------""\n")
     f.write(a)
     f.write(ficha)
