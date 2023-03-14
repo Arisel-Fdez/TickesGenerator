@@ -17,7 +17,7 @@ def generate_tickets():
             code = (''.join(random.SystemRandom().choice(string.ascii_letters + string.digits) for _ in range(ticket_length)))
             doc = (f"add server=hotspot1 name={code} limit-uptime={time_limit} profile={profile} comment={comment}\n")
             a = ("---------------------------------FdezNet-Fichas---------------------------------\n")
-            ficha = (f"PIN: {code} | Tiempo: {comment} | Precio: ${price} | FdezNet Residencial: 9921115811\n")
+            ficha = (f"PIN: {code} | Tiempo: {comment} | Precio: ${price} | FdezNet Residencial: XXXXXXXXXX\n")
             b = ("--------------------------------Internet-ilimitado------------------------------\n")
             f.write(a)
             f.write(ficha)
